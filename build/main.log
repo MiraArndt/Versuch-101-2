@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  5 JAN 2020 22:19
+||||||| merged common ancestors
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  5 JAN 2020 21:04
+=======
+<<<<<<< HEAD
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.9)  5 JAN 2020 21:34
+=======
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.21)  5 JAN 2020 21:04
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -38,8 +48,19 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multiscript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'.
+<<<<<<< HEAD
 luaotfload | main : initialization completed in 0.169 seconds
+||||||| merged common ancestors
+luaotfload | main : initialization completed in 0.175 seconds
+=======
+<<<<<<< HEAD
+luaotfload | main : initialization completed in 0.133 seconds
+(./header.tex (/home/mira/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
+=======
+luaotfload | main : initialization completed in 0.175 seconds
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 (./header.tex (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/home/nico/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -1648,13 +1669,33 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] (./content/ziel.tex) (./content/theorie.tex [3]) (./content/durchfuehrung.tex
+<<<<<<< HEAD
 <content/Drill.png, id=65, 117.43875pt x 309.40594pt>
+||||||| merged common ancestors
+<content/Drill.png, id=61, 117.43875pt x 309.40594pt>
+=======
+<<<<<<< HEAD
+<content/Drill.png, id=60, 117.43875pt x 309.40594pt>
+=======
+<content/Drill.png, id=61, 117.43875pt x 309.40594pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/Drill.png Graphic file (type png)
 <use content/Drill.png>
 Package luatex.def Info: content/Drill.png  used on input line 10.
 (luatex.def)             Requested size: 85.35826pt x 224.88718pt.
  [4]
+<<<<<<< HEAD
 <content/1.jpg, id=80, 3468.96pt x 2601.72pt>
+||||||| merged common ancestors
+<content/1.jpg, id=76, 3468.96pt x 2601.72pt>
+=======
+<<<<<<< HEAD
+<content/1.jpg, id=75, 3468.96pt x 2601.72pt>
+=======
+<content/1.jpg, id=76, 3468.96pt x 2601.72pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/1.jpg Graphic file (type jpg)
 <use content/1.jpg>
 Package luatex.def Info: content/1.jpg  used on input line 19.
@@ -1663,28 +1704,73 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 20.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 20.
+<<<<<<< HEAD
 <content/2.jpg, id=82, 3468.96pt x 2601.72pt>
+||||||| merged common ancestors
+<content/2.jpg, id=78, 3468.96pt x 2601.72pt>
+=======
+<<<<<<< HEAD
+<content/2.jpg, id=77, 3468.96pt x 2601.72pt>
+=======
+<content/2.jpg, id=78, 3468.96pt x 2601.72pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/2.jpg Graphic file (type jpg)
 <use content/2.jpg>
 Package luatex.def Info: content/2.jpg  used on input line 32.
 (luatex.def)             Requested size: 227.62204pt x 170.70569pt.
  [5<./content/Drill.png><./content/1.jpg>]
+<<<<<<< HEAD
 <content/3.jpg, id=92, 3468.96pt x 2601.72pt>
+||||||| merged common ancestors
+<content/3.jpg, id=88, 3468.96pt x 2601.72pt>
+=======
+<<<<<<< HEAD
+<content/3.jpg, id=87, 3468.96pt x 2601.72pt>
+=======
+<content/3.jpg, id=88, 3468.96pt x 2601.72pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/3.jpg Graphic file (type jpg)
 <use content/3.jpg>
 Package luatex.def Info: content/3.jpg  used on input line 49.
 (luatex.def)             Requested size: 227.62204pt x 170.70569pt.
+<<<<<<< HEAD
 <content/4.jpg, id=93, 2601.72pt x 3468.96pt>
+||||||| merged common ancestors
+<content/4.jpg, id=89, 2601.72pt x 3468.96pt>
+=======
+<<<<<<< HEAD
+<content/4.jpg, id=88, 2601.72pt x 3468.96pt>
+=======
+<content/4.jpg, id=89, 2601.72pt x 3468.96pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/4.jpg Graphic file (type jpg)
 <use content/4.jpg>
 Package luatex.def Info: content/4.jpg  used on input line 67.
 (luatex.def)             Requested size: 227.62204pt x 303.45915pt.
  [6<./content/2.jpg><./content/3.jpg>]
+<<<<<<< HEAD
 <content/5.jpg, id=99, 2601.72pt x 3468.96pt>
+||||||| merged common ancestors
+<content/5.jpg, id=95, 2601.72pt x 3468.96pt>
+=======
+<<<<<<< HEAD
+<content/5.jpg, id=94, 2601.72pt x 3468.96pt>
+=======
+<content/5.jpg, id=95, 2601.72pt x 3468.96pt>
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 File: content/5.jpg Graphic file (type jpg)
 <use content/5.jpg>
 Package luatex.def Info: content/5.jpg  used on input line 74.
 (luatex.def)             Requested size: 227.62204pt x 303.45915pt.
+<<<<<<< HEAD
+ [7<./content/4.jpg>]) (./content/auswertung.tex [8<./content/5.jpg>]) (./content/diskussion.tex) (./content/anhang.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+ [9]
+=======
  [7<./content/4.jpg>]) (./content/auswertung.tex [8<./content/5.jpg>]
 
 LaTeX Warning: Reference `eq:a1' on page 9 undefined on input line 21.
@@ -1701,18 +1787,37 @@ LaTeX Warning: Reference `fig:plot' on page 11 undefined on input line 216.
 
 ) (./content/diskussion.tex) (./content/anhang.tex) [11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+<<<<<<< HEAD
  [12]
+||||||| merged common ancestors
+ [11]
+=======
+ [11]
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
  (./build/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `main.aux' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: CE79363981679582241CE1581C196193;12955.
+||||||| merged common ancestors
+(rerunfilecheck)             Checksum: B0D90575FB94579399FB94333B629B28;11054.
+=======
+<<<<<<< HEAD
+(rerunfilecheck)             Checksum: D288CFD76EEB652DEFBAE38A8BA3ABBD;9311.
+Package rerunfilecheck Info: File `main.toc' has not changed.
+(rerunfilecheck)             Checksum: CF9CD9D0D4A9BF0010128F0BB705EEBB;1024.
+=======
+(rerunfilecheck)             Checksum: B0D90575FB94579399FB94333B629B28;11054.
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: 27A05F05BBBDEC0AAE88505C3F0D64C5;1319.
 
 
 LaTeX Warning: There were undefined references.
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1723,7 +1828,29 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
+<<<<<<< HEAD
  43918 strings out of 494291
+||||||| merged common ancestors
+ 43907 strings out of 494291
+=======
+<<<<<<< HEAD
+ 44293 strings out of 494291
+ 100000,1977958 words of node,token memory allocated
+ 858 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 70 attribute, 80 glue_spec, 37 attribute_list, 1 write, 5 pdf_action nodes
+   avail lists: 1:2,2:703,3:171,4:20,5:207,6:22,7:2290,8:101,9:144,10:8,11:259
+ 47171 multiletter control sequences out of 65536+600000
+ 294 fonts using 111861023 bytes
+ 57i,21n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/mira/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (9 pages, 14906896 bytes).
+
+PDF statistics: 240 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 131072)
+=======
+ 43907 strings out of 494291
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
  100000,1977958 words of node,token memory allocated
  1013 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 120 attribute, 81 glue_spec, 62 attribute_list, 1 write, 5 pdf_action nodes
@@ -1734,8 +1861,21 @@ Here is how much of LuaTeX's memory you used:
 </home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
 Output written on main.pdf (12 pages, 14930842 bytes).
 
+<<<<<<< HEAD
 PDF statistics: 316 PDF objects out of 1000 (max. 8388607)
  246 compressed objects within 3 object streams
  66 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
+||||||| merged common ancestors
+PDF statistics: 296 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 131072)
+ 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+=======
+PDF statistics: 296 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 131072)
+>>>>>>> ed2895cb6604afe0ad298a0bfca18f1470dafd42
+ 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+>>>>>>> d7753b480e338f171dacec11d14d96d6b180d1ae
 
