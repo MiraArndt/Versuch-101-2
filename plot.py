@@ -3,8 +3,8 @@ import numpy as np
 import csv
 from scipy.optimize import curve_fit
 
-x=np.genfromtxt("Eigenträgheitsmoment.csv", delimiter=",",unpack=True,usecols=0)
-y=np.genfromtxt("Eigenträgheitsmoment.csv", delimiter=",",unpack=True,usecols=1)
+x=np.genfromtxt("Eigentraegheitsmoment.csv", delimiter=",",unpack=True,usecols=0)
+y=np.genfromtxt("Eigentraegheitsmoment.csv", delimiter=",",unpack=True,usecols=1)
 
 x = x**2
 y = y**2

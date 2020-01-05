@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1578252465 "build/main.bcf" "build/main.bbl" "build/main" 1578254684
-  "build/main.bcf" 1578254683 99668 02035b5f48db38ca5bacd59c7af47653 "lualatex"
+["biber build/main"] 1578258886 "build/main.bcf" "build/main.bbl" "build/main" 1578259196
+  "build/main.bcf" 1578259195 99668 02035b5f48db38ca5bacd59c7af47653 "lualatex"
   "lit.bib" 1578222913 329 4f07152d0e6e70569bb53cb40b4c628b ""
   "programme.bib" 1578222913 822 d3f82d6429bea02c12c19652ca429715 ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1578254670 "main.tex" "build/main.pdf" "main" 1578254684
+  "build/main.blg"
+["lualatex"] 1578259185 "main.tex" "build/main.pdf" "main" 1578259196
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nico/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -188,11 +188,11 @@
   "/home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1572009925 411895 944ffbe15b743bbd63420289d9ac2815 ""
   "/home/nico/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1569076336 6580 a47954f6961193c0a8592adef65b66ea ""
   "/home/nico/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1569076484 1382712 235924b853a88370b475edecb8748d06 ""
-  "build/main.aux" 1578254683 11054 b0d90575fb94579399fb94333b629b28 "lualatex"
-  "build/main.bbl" 1578252466 6587 2d1221a2d3827e8d37657cac9b350c28 "biber build/main"
-  "build/main.run.xml" 1578254683 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1578254683 1084 f14de60a48b9c89a3eb4883e3ee2f5da "lualatex"
-  "build/plot.pdf" 1578249116 10740 22d299dcd8e274027373964c08e53084 ""
+  "build/main.aux" 1578259195 12955 ce79363981679582241ce1581c196193 "lualatex"
+  "build/main.bbl" 1578258888 6587 2d1221a2d3827e8d37657cac9b350c28 "biber build/main"
+  "build/main.run.xml" 1578259195 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1578259195 1319 27a05f05bbbdec0aae88505c3f0d64c5 "lualatex"
+  "build/plot.pdf" 1578256639 10740 ce5d6c2eebc423c41fb2910385828dc2 ""
   "content/1.jpg" 1578222913 3358971 785fda81131ba1f0f794abdf0ebd9196 ""
   "content/2.jpg" 1578222913 3128026 ac663c2fa715a594cee401ae2b6b1a81 ""
   "content/3.jpg" 1578222913 2819267 d30107ec4f6d1291bde3947ca0cb314e ""
@@ -200,7 +200,7 @@
   "content/5.jpg" 1578222913 2760281 6a2e18b3bb1435de472dcc65563095c1 ""
   "content/Drill.png" 1578222913 43367 54d713a8ffbca333cbbbef05d597c297 ""
   "content/anhang.tex" 1578222913 16 5f339988ab9ee69742204718183cdec3 ""
-  "content/auswertung.tex" 1578254668 4584 c9b247c444123dabd975712f65b877c7 ""
+  "content/auswertung.tex" 1578259183 5719 057cf165147cee37296d8c104a6c773f ""
   "content/diskussion.tex" 1578222913 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
   "content/durchfuehrung.tex" 1578222913 3317 b1962da68f743d7a2dab78efdf2f46b4 ""
   "content/theorie.tex" 1578234665 2994 189b7b48c5e1d8eaacefad9ff34f56ec ""
@@ -208,9 +208,9 @@
   "header.tex" 1578222913 3612 c2f9964b9e72a790c31972e2a2b7e95f ""
   "main.tex" 1578222913 446 fd63b38b2f55a5ad1fb4e25827d9612a ""
   (generated)
+  "build/main.bcf"
+  "build/main.run.xml"
   "build/main.aux"
   "build/main.toc"
-  "build/main.run.xml"
-  "build/main.bcf"
-  "build/main.pdf"
   "build/main.log"
+  "build/main.pdf"
