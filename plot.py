@@ -1,19 +1,26 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import csv
+from scipy.optimize import curve_fit
 
-x = np.linspace(0, 10, 1000)
-y = x ** np.sin(x)
+x=np.genfromtxt("Eigenträgheitsmoment.csv", delimiter=",",unpack=True,usecols=0)
+y=np.genfromtxt("Eigenträgheitsmoment.csv", delimiter=",",unpack=True,usecols=1)
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
-plt.legend(loc='best')
+x = x**2
+y = y**2
 
-plt.subplot(1, 2, 2)
-plt.plot(x, y, label='Kurve')
-plt.xlabel(r'$\alpha \:/\: \si{\ohm}$')
-plt.ylabel(r'$y \:/\: \si{\micro\joule}$')
+params, covariance_matrix = np.polyfit(x, y, deg=1, cov=True)
+errors = np.sqrt(np.diag(covariance_matrix))
+for name, value, error in zip('ab', params, errors):
+    print(f'{name} = {value:.3f} ± {error:.3f}')
+
+x_plot = np.linspace(0, 0.1)
+
+
+plt.plot(x, y,'r.', label='Messwerte')
+plt.plot(x_plot,x_plot * params[0] + params[1], label = 'Lineare Regression')
+plt.xlabel(r'$a^2 \:/\: \si{\meter}^2$')
+plt.ylabel(r'$T^2 \:/\: \si{\second}^2$')
 plt.legend(loc='best')
 
 # in matplotlibrc leider (noch) nicht möglich
