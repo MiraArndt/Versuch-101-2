@@ -18,10 +18,10 @@ x = ufloat(0.0,0.0)
 #    x = x + y[i]
 
 b = ufloat(8.064,1.870)
-D = ufloat(0.117027,0.004618)
-m = 1.1193
-R = 0.00375
-h = 0.003
+D = ufloat(0.117027,0.001539)
+m = 0.2229
+R = 0.01995
+h = 0.03
 I = ufloat(0.0,0.0)
 
 
@@ -31,4 +31,9 @@ print( (b*D)/(4*np.pi**2) - (m*R**2)/(2) -(m*h**2)/(6) )
 print(np.mean(werte))
 print(np.std(werte))
 
+T =  ufloat(1.032,0.0463)
+print((D*T**2)/(4*np.pi**2))
 
+
+t = ufloat(2.032 , 0.0515)
+print((D*t**2)/(4*np.pi**2))

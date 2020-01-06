@@ -35,6 +35,24 @@ Trägheitsmoment von
 \noindent Dabei wurde die Dichte des Holzes der Puppe
 als $670\,\si{\kilo\gram \per \cubic \meter}$ (siehe \cite{holz})
 angenommen.
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 0412d0d3dd80cfe5d8c554e0a3c906e3fd9d72e6
 
 \subsection{Bestimmung der Winkelrichtgröße und des Eigenträgheitsmoments der Drillachse}
 
@@ -60,10 +78,10 @@ Mit den Werten aus der Tabelle \ref{eq:a1}, der Formel \ref{eq:ae2} und den allg
 \noindent
 und der Standartabweichung
 \begin{equation}
-    \sigma = \sqrt{\frac{1}{N-1} \sum_{n=1}^N (x_n - \bar{x})^2}
+    \sigma = \sqrt{\frac{1}{N(N-1)} \sum_{n=1}^N (x_n - \bar{x})^2}
 \end{equation}
 \noindent
-ergibt sich für die Winkelrichtgröße D der Wert D = $(0.017027 \pm 0.004618)\,$Nm.
+ergibt sich für die Winkelrichtgröße D der Wert D = $(0.017027 \pm 0.001539)\,$Nm.
 
 \begin{table}[H]
 \normalsize
@@ -91,6 +109,9 @@ $5\pi/3$ &   0.90   \\
 \caption{Aufgenommene Werte zur Bestimmung der Winkelrichtgröße D}
 \label{tab:a1}
 \end{table}
+
+
+
 
 
 
@@ -160,7 +181,10 @@ als Wert für das Eigenträgheitsmoment $I_D$ der Wert $I_D = (0.024 \pm 0.006)\
     \includegraphics[width=10cm]{build/plot.pdf}
     \caption{Darstellung der Messwerte und der linearen Regression zur Bestimmung des Eigenträgheitsmoments $I_D$}
 \end{figure}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0412d0d3dd80cfe5d8c554e0a3c906e3fd9d72e6
 
 
 \begin{table}[H]
@@ -189,6 +213,59 @@ als Wert für das Eigenträgheitsmoment $I_D$ der Wert $I_D = (0.024 \pm 0.006)\
 \caption{Aufgenommene Werte zur Bestimmung des Eigenträgheitsmoments $I_{D}$ der Drillachse (Auslenkung betrug 15°)}
 \label{tab:a2}
 \end{table}
+
+
+
+
+
+\subsection{Berechnung der Trägheitsmomente von zwei Körpern}
+
+\subsubsection{Trägheitsmoment eines kurzen Zylinders}
+
+Das Träheitsmoment eines Vollzylinders, der sich um seine Symmetrieachse dreht ist durch 
+Gleichung (Verweis) gegeben. Die in Tabelle \ref{tab:a4} aufgeführten Werte wurden bei einer 
+Auslenkung von $\phi = 15\,°$ aufgenommen. Mit dem Wert $T_{K1} = 1.032 \pm 0.0463\, \si{\second}$
+für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung (VERWEIS)
+\begin{equation}
+    I = \frac{T^2 D}{4 \pi^2}
+\end{equation}
+und der Gaußsche Fehlerfortpflanzungformel (VERWEIS)
+\begin{equation} 
+    \Delta I_{K1} = \sqrt{\frac{T_{K1}^2 D^2}{4 \pi^4}\Delta T_{K1}^2 + \frac{T_{K1}^4}{16 \pi^4}\Delta D^2} 
+\end{equation}
+
+
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c}
+\toprule
+    Messung  & $T$\,/\,$\si{\second}$ \\
+    \midrule
+
+1  &   0.92   \\
+2  &   1.16   \\
+3  &   0.96   \\
+4  &   1.12   \\
+5  &   1.00   \\
+
+    \bottomrule
+\end{tabular}
+\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments}
+\label{tab:a4}
+\end{table}
+
+
+
+
+
+
+
+
+
 
 
 
