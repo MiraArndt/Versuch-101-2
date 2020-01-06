@@ -88,39 +88,6 @@
       \verb http://matplotlib.org/
       \endverb
     \endentry
-    \entry{Skript}{online}{}
-      \name{author}{2}{}{%
-        {{hash=1c7264cc5201658f419c34415b361c95}{%
-           family={Kierfeld},
-           familyi={K\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2b5e3b1f0fe461949b93c209612337fe}{%
-           family={Westphal},
-           familyi={W\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \strng{fullhash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \strng{bibnamehash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \strng{authorbibnamehash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \strng{authornamehash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \strng{authorfullhash}{47ce202a75c653e11dc5e2bc56ef2e93}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Skript Physik I - Rotationsbewegungen}
-      \field{pages}{4}
-      \range{pages}{1}
-      \verb{urlraw}
-      \verb https://moodle.tu-dortmund.de/pluginfile.php/827041/mod_resource/content/0/181203_cw.pdf
-      \endverb
-      \verb{url}
-      \verb https://moodle.tu-dortmund.de/pluginfile.php/827041/mod_resource/content/0/181203_cw.pdf
-      \endverb
-    \endentry
     \entry{uncertainties}{software}{}
       \name{author}{1}{}{%
         {{hash=66ea1cb529a094a7f1c905805191cc4a}{%
