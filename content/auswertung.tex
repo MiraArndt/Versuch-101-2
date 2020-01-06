@@ -1,76 +1,29 @@
 \section{Auswertung}
 \label{sec:Auswertung}
 
-\subsection{Errechnete Theoriewerte}
-
-Mit Hilfe der gemessenen Daten und Gleichungen \ref{eq:zyl1} und \ref{eq:zyl2}
-lassen sich die Trägheitsmomente der beiden Zylinder
-als
-
-\begin{equation*}
-  I=0,787 \cdot 10^{-3}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
-\end{equation*}
-
-\noindent und als
-
-\begin{equation*}
-  I=15,432 \cdot 10^{-3}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
-\end{equation*}
-
-\noindent berechnen. Bei der Puppe wird zusätzlich 
-Gleichung \ref{eq:Kugel} und der Satz von Steiner \ref{eq:steiner}
-benötigt. Für die erste Position ergibt sich ein
-Trägheitsmoment von
-
-\begin{equation*}
-  I=7,916 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
-\end{equation*}
-
-\noindent und für die zweite ein Trägheitsmoment von
-
-\begin{equation*}
-  I=1,591 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
-\end{equation*}
-
-\noindent Dabei wurde die Dichte des Holzes der Puppe
-als $670\,\si{\kilo\gram \per \cubic \meter}$ (siehe \cite{holz})
-angenommen.
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 0412d0d3dd80cfe5d8c554e0a3c906e3fd9d72e6
-
 \subsection{Bestimmung der Winkelrichtgröße und des Eigenträgheitsmoments der Drillachse}
 
-Die Winkelrichtgröße D lässt sich mithilfe der Gleichungen (5 und 7) berechnen. Im Versuch standen 
-Kraftarm $\vec{r}$ und Kraft $\vec{F}$ senkrecht zueinander, wodurch der Betrag von Gleichung (5) 
+
+\subsubsection{Winkelrichtgröße}
+
+Die Winkelrichtgröße D lässt sich mithilfe der Gleichungen \ref{eq:fa1} und \ref{eq:fa3} berechnen.
+Im Versuch stehen Kraftarm $\vec{r}$ und Kraft $\vec{F}$ senkrecht zueinander, wodurch der Betrag
+von Gleichung \ref{eq:fa1} 
 zu
 \begin{equation}
     M = F \cdot r
     \label{eq:ae1}
 \end{equation}
 \noindent
-wird. Werden nun (7) und \ref{eq:ae1} gleichgesetzt und nach D umgestellt, ergibt sich die Gleichungen
+wird. Werden nun \ref{eq:fa3} und \ref{eq:ae1} gleichgesetzt und nach D umgestellt, ergibt sich
+die Gleichungen
 \begin{equation}
     D = \frac{F\cdot r}{\phi}.
     \label{eq:ae2}
 \end{equation}
 \noindent
-Mit den Werten aus der Tabelle \ref{eq:a1}, der Formel \ref{eq:ae2} und den allgemeinen Formeln für den Mittelwert
+Mit den Werten aus der Tabelle \ref{tab:a1}, der Formel \ref{eq:ae2} und den allgemeinen Formeln 
+für den Mittelwert
 \begin{equation}
     \bar{x} = \frac{1}{N} \sum_{n=1}^N x_n 
     \label{eq:ae3}
@@ -78,10 +31,11 @@ Mit den Werten aus der Tabelle \ref{eq:a1}, der Formel \ref{eq:ae2} und den allg
 \noindent
 und der Standartabweichung
 \begin{equation}
-    \sigma = \sqrt{\frac{1}{N(N-1)} \sum_{n=1}^N (x_n - \bar{x})^2}
+    \Delta x = \sqrt{\frac{1}{N(N-1)} \sum_{n=1}^N (x_n - \bar{x})^2}
+    \label{eq:std}
 \end{equation}
 \noindent
-ergibt sich für die Winkelrichtgröße D der Wert D = $(0.017027 \pm 0.001539)\,$Nm.
+ergibt sich für die Winkelrichtgröße der Wert D = $(0.017027 \pm 0.001539)\,$Nm.
 
 \begin{table}[H]
 \normalsize
@@ -109,39 +63,20 @@ $5\pi/3$ &   0.90   \\
 \caption{Aufgenommene Werte zur Bestimmung der Winkelrichtgröße D}
 \label{tab:a1}
 \end{table}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \noindent
+
+\subsubsection{Eigenträgheitsmoment}
+
 Um das Eigenträgheitsmoment $I_D$ bestimmen zu können, ist es zuerst notwendig das gesamte 
-Trägheitsmoment des in \ref{fig:b} zu sehenden Aufbaus zu berechnen. Dieses setzt sich mithilfe 
-des Satzes von Steiner zu dem Ausdruck
+Trägheitsmoment des in Abbildung \ref{fig:b} zu sehenden Aufbaus zu berechnen. Dieses setzt 
+sich mithilfe des Satzes von Steiner zu dem Ausdruck
 \begin{equation}
     I_{ges} = I_D + 2\cdot I_{zh} + 2\cdot m_{zh} \cdot a^2
 \end{equation}
 \noindent
 zusammen. Dabei gibt $I_{zh}$ das Trägheitsmoment eines senkrecht zu der Drehachse liegenden Zylinders an, 
-welches sich über 
-\begin{equation}
-    I_{zh} = m_{zh} \cdot \Big( \frac{R^2}{4} + \frac{h^2}{12} \Big)
-\end{equation}
-\noindent
-berechnen lässt (Verweis auf Versuchsanleitung). Dieses Zwischenergebnis lässt sich nun in die 
-quadrierte Gleichung (REFERENZ) einsetzen, wodurch sich 
+welches sich über Gleichung \ref{eq:zyl2} berechnen lässt. Dieses Zwischenergebnis lässt sich
+nun in die quadrierte Gleichung \ref{eq:fa2} einsetzen, wodurch sich 
 \begin{equation}
     T^2 = \frac{4 \pi^2 I_D}{D} + \frac{8 \pi^2 m_{zh}}{D} \cdot a^2 + \frac{8 \pi^2 m_{zh} R^2}{4 D} + \frac{8 \pi^2 m_{zh} h^2}{12 D} 
 \end{equation}
@@ -160,32 +95,33 @@ und
     b = \frac{4 \pi^2 I_D}{D} + \frac{8 \pi^2 m_{zh} R^2}{4 D} + \frac{8 \pi^2 m_{zh} h^2}{12 D}
     \label{eq:b}
 \end{equation}
-gilt. Über die lineare Regression ergeben sich $m = (673.436 \pm 31.466)\,\frac{\si{\second}^2}{\si{\meter}^2}$ und $b = (8.064 \pm 1.870)\,\si{\second}^2$ als gesuchte Werte.
+gilt. Über die lineare Regression ergeben sich $m = (673.436 \pm 31.466)\,\frac{\si{\second\squared}}{\si{\meter\squared}}$ und $b = (8.064 \pm 1.870)\,\si{\second}^2$ als gesuchte Werte.
 Wird nun \ref{eq:b} nach dem Eigenträgheitsmoment $I_D$ aufgelöst
 \begin{equation}
     I_D = \frac{b D}{4 \pi^2} - \frac{m_{zh} R^2}{2} - \frac{m_{zh} h^2}{6}
 \end{equation}
 \noindent
-lässt sich durch die gaußsche Fehlerfortpflanzung
+lässt sich durch die Gaußsche Fehlerfortpflanzung, die allgemein
+
 \begin{equation}
     \sigma_f = \sqrt{\sum_{i=1}^m   \Big(   \frac{\partial f}{\partial x_i} \Big)^2 \sigma_{x_{i}}^2       }
+    \label{eq:gauss}
 \end{equation}
 \noindent
-als Wert für das Eigenträgheitsmoment $I_D$ der Wert $I_D = (0.024 \pm 0.006)\, \si{\kg}\,\si{\meter}^2$.
-
-
-
+lautet,  
+\begin{equation}
+    \Delta I_D = \sqrt{\Big(\frac{b}{4\pi^2}\Big)^2 (\Delta D)^2 + \Big(\frac{D}{4\pi^2}\Big)^2(\Delta b)^2}
+\end{equation}
+\noindent
+der Wert für das Eigenträgheitsmoment mit $I_D = (0.034 \pm 0.0009)\, \si{\kilogram}\,\si{\meter\squared}$ 
+angeben. In allen Folgenden Rechnungen wird die Näherung $I_D = 0\, \si{\kilogram}\,\si{\meter\squared}$
+getroffen.
 
 \begin{figure}
     \centering
     \includegraphics[width=10cm]{build/plot.pdf}
     \caption{Darstellung der Messwerte und der linearen Regression zur Bestimmung des Eigenträgheitsmoments $I_D$}
 \end{figure}
-<<<<<<< HEAD
-
-=======
->>>>>>> 0412d0d3dd80cfe5d8c554e0a3c906e3fd9d72e6
-
 
 \begin{table}[H]
 \normalsize
@@ -218,23 +154,46 @@ als Wert für das Eigenträgheitsmoment $I_D$ der Wert $I_D = (0.024 \pm 0.006)\
 
 
 
-\subsection{Berechnung der Trägheitsmomente von zwei Körpern}
 
-\subsubsection{Trägheitsmoment eines kurzen Zylinders}
 
-Das Träheitsmoment eines Vollzylinders, der sich um seine Symmetrieachse dreht ist durch 
-Gleichung (Verweis) gegeben. Die in Tabelle \ref{tab:a4} aufgeführten Werte wurden bei einer 
-Auslenkung von $\phi = 15\,°$ aufgenommen. Mit dem Wert $T_{K1} = 1.032 \pm 0.0463\, \si{\second}$
-für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung (VERWEIS)
+\subsection{Trägheitsmoment eines kurzen Zylinders}
+
+
+
+\subsubsection{Berechung von dem Theoriewert}
+
+Das Trägheitsmoment des ersten Zylinders, der sich um seine Symmetrieachse dreht,
+($R_{K1} = 0.0375\, \si{\meter}$, $m_{K1} = 1.1193\, \si{\kilogram}$) 
+lässt sich über die Gleichung \ref{eq:zyl1} ermitteln, welche den Theoriewert 
+\begin{equation}
+    I_{K1} = 0.787\cdot 10^{-3}\, \si{\kilogram}\,\si{\meter}^2 \nonumber
+\end{equation} 
+\noindent
+liefert.
+
+
+
+\subsubsection{Experimenteller Wert}
+
+Die in Tabelle \ref{tab:a4} aufgeführten Werte wurden bei einer 
+Auslenkung von $\phi = 15\,°$ aufgenommen. Mit dem, über die Gleichungen \ref{eq:fa2},
+\ref{eq:ae3} und \ref{eq:std} 
+errechneten, Wert $T_{K1} = 1.032 \pm 0.0463\, \si{\second}$
+für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung \ref{eq:fa2}
 \begin{equation}
     I = \frac{T^2 D}{4 \pi^2}
 \end{equation}
-und der Gaußsche Fehlerfortpflanzungformel (VERWEIS)
+und der Gaußsche Fehlerfortpflanzungformel \ref{eq:gauss}
 \begin{equation} 
     \Delta I_{K1} = \sqrt{\frac{T_{K1}^2 D^2}{4 \pi^4}\Delta T_{K1}^2 + \frac{T_{K1}^4}{16 \pi^4}\Delta D^2} 
 \end{equation}
-
-
+\noindent
+der experimentelle Wert für das Trägheitsmoment $I_{K1}$ mit
+\begin{equation}
+    I_{K1} = 0.00046 \pm 0.00006\, \si{\kilogram}\,\si{\meter\squared}
+\end{equation}
+\noindent
+angeben.
 
 \begin{table}[H]
 \normalsize
@@ -254,7 +213,7 @@ und der Gaußsche Fehlerfortpflanzungformel (VERWEIS)
 
     \bottomrule
 \end{tabular}
-\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments}
+\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments $I_{K1}$}
 \label{tab:a4}
 \end{table}
 
@@ -267,7 +226,289 @@ und der Gaußsche Fehlerfortpflanzungformel (VERWEIS)
 
 
 
+\subsection{Trägheitsmoment eines langen Zylinders}
+\subsubsection{Theoriewert}
+Der Theoriewert des zweiten Zylinders 
+($R_{K2} = 0.04\, \si{\meter}$, $h_{K2} = 0.1394\, \si{\meter}$, $m_{K2} = 1.5255\, \si{\kilogram}$) 
+lässt sich über Gleichung \ref{eq:zyl2}
+bestimmen, welche mit den angegebenen Werten
+\begin{equation}
+    I_{K2} = 3.1019\cdot 10^{-3}\, \si{\kilogram}\,\si{\meter\squared}
+\end{equation} 
+\noindent
+ergibt.
+
+\subsubsection{Experimenteller Wert}
+Die in Tabelle \ref{tab:aa4} aufgeführten Werte wurden bei einer 
+Auslenkung von $\phi = 15\,°$ aufgenommen. Mit dem, über die Gleichungen \ref{eq:fa2},
+\ref{eq:ae3} und \ref{eq:std}, berechneten
+Wert $T_{K2} = 2.032 \pm 0.0515\, \si{\second}$
+für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung \ref{eq:fa2}
+\begin{equation}
+    I = \frac{T^2 D}{4 \pi^2}
+\end{equation}
+und der Gaußsche Fehlerfortpflanzungformel \ref{eq:gauss}
+\begin{equation} 
+    \Delta I_{K2} = \sqrt{\frac{T_{K2}^2 D^2}{4 \pi^4}\Delta T_{K2}^2 + \frac{T_{K1}^4}{16 \pi^4}\Delta D^2} 
+\end{equation}
+\noindent
+der experimentelle Wert für das Trägheitsmoment $I_{K2}$ mit
+\begin{equation}
+    I_{K2} = 0.00178 \pm 0.00018\, \si{\kilogram}\,\si{\meter\squared}
+\end{equation}
+\noindent
+angeben.
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c}
+\toprule
+    Messung  & $T$\,/\,$\si{\second}$ \\
+    \midrule
+
+1  &   2.23   \\
+2  &   1.95   \\
+3  &   2.01   \\
+4  &   2.02   \\
+5  &   1.95   \\
+
+    \bottomrule
+\end{tabular}
+\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments $I_{K2}$}
+\label{tab:aa4}
+\end{table}
 
 
 
-Siehe \autoref{fig:plot}!
+
+
+\subsection{Vermessung der Holzpuppe}
+
+Die Holzpuppe wird so betrachtet, wie es zuvor beschrieben wurde. Mithilfe der beiden 
+Gleichungen
+\begin{equation}
+    V_{Zylinder} = \pi \cdot r^2 \cdot h 
+\end{equation}
+\noindent
+und 
+\begin{equation}
+    V_{Kugel} = \frac{4}{3} \pi r^3
+\end{equation}
+\noindent
+können die Volumina von Zylindern und Kugeln errechnet werden. Die Ergebnisse zur Vermessung der
+Holzpuppe sind in Tabelle \ref{tab:zz} zu finden.
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c c}
+\toprule
+    Körperteil &  $r$\,/\,$\si{\meter}$ & $h$\,/\,$\si{\meter}$ \\
+    \midrule
+
+Arme        &   $6.46 \cdot 10^{-3}$   &  0.1261 \\
+Beine       &   $7.07 \cdot 10^{-3}$   &  0.1484 \\
+Oberkörper  &   $0.01854 $    &  0.0996 \\
+Kopf        &   $0.01623 $     &  -      \\
+
+    \bottomrule
+\end{tabular}
+\caption{Aufgenommene Werte zur Vermessung der Holzpuppe}
+\label{tab:zz}
+\end{table}
+\noindent
+
+Mit der angenommenen 
+Holzdichte von $\rho = 670\,\si{\kilo\gram \per \cubic \meter}$ (siehe \cite{holz}) und der
+Formel
+\begin{equation}
+    m = \rho \cdot V
+\end{equation}
+lassen sich die Massen der einzelnen Körperteile berechnen. Die einzelnen Werte der 
+Massen sind ebenfalls in Tabelle \ref{tab:zz} aufgeführt.
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c c}
+\toprule
+    Körperteil &  $V$\,/\,$\si{\meter}^3$ & $m\,/\,\si{\kilogram}$ \\
+    \midrule
+
+$V_{Arme}$        &   $1.65322 \cdot 10^{-5}$  &  0.01108    \\
+$V_{Beine}$       &   $2.33036 \cdot 10^{-5}$  &  0.01561    \\
+$V_{Oberkoerper}$  &   $1.07555 \cdot 10^{-4}$  &  0.07206    \\
+$V_{Kopf}$        &   $1.79079 \cdot 10^{-5}$  &  0.01200    \\
+
+    \bottomrule
+\end{tabular}
+\caption{Errechnete Volumina und Massen einzelner Körperteile}
+\label{tab:zz}
+\end{table}
+
+
+
+\subsection{Theoriewerte zu erster Haltung}
+
+Über den Satz von Steiner und die Gleichungen \ref{eq:zyl1}, \ref{eq:zyl2} und \ref{eq:Kugel} 
+lassen sich die theoretischen Werte der Trägheitsmomente der einzelnen
+Körperteile berechnen. Die Teilergebnisse lauten:
+\begin{align}
+    I_{Arm} = I_{Arm,0} + (\frac{1}{2} h_{Arm}+r_{Oberkoerper})^2 m_{Arm} \nonumber \\
+    I_{Arm} = 2.877 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared} \nonumber \\
+    I_{Bein} = I_{Bein,0} + (\frac{1}{2} h_{Bein}+r_{Bein})^2 m_{Bein} \nonumber \\
+    I_{Bein} = 3.686 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared} \nonumber \\
+    I_{Oberkoerper} = I_{Oberkoerper,0}\nonumber \\
+    I_{Oberkoerper} = 1.228 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared} \nonumber \\
+    I_{Kopf} = I_{Kopf,0}\nonumber \\
+    I_{Kopf} = 1.253 \cdot 10^{-6}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared} \nonumber \\
+\end{align}
+\noindent
+Werden all diese Teilergebnisse aufsummiert, ergibt sich das insgesamte Trägheitsmoment 
+\begin{equation}
+    I_{Position,1} = 7.916 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
+\end{equation}
+der Holzpuppe in der ersten
+Haltung.
+
+
+\subsection{Experimentell bestimmter Wert des Trägheitsmoments}
+
+In diesem Teil kann das Trägheitsmoment analog zu der Berechnung der beiden Trägheitsmomente $I_{K1}$
+und $I_{K2}$ erfolgen. 
+Die in Tabelle \ref{tab:euler} aufgeführten Werte wurden bei einer 
+Auslenkung von $\phi = 20\,°$ aufgenommen. Mit dem, über die Gleichungen \ref{eq:fa2}, \ref{eq:ae3} 
+und \ref{eq:std} errechneten, 
+Wert $T_{P,1} = 0.8220 \pm 0.0285\, \si{\second}$
+für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung \ref{eq:fa2}
+\begin{equation}
+    I = \frac{T^2 D}{4 \pi^2}
+\end{equation}
+und der Gaußsche Fehlerfortpflanzungformel \ref{eq:gauss}
+\begin{equation} 
+    \Delta I_{Position,1} = \sqrt{\frac{T_{P,1}^2 D^2}{4 \pi^4}\Delta T_{P,1}^2 + \frac{T_{P,1}^4}{16 \pi^4}\Delta D^2} 
+\end{equation}
+\noindent
+der experimentelle Wert für das Trägheitsmoment $I_{Position,1}$ mit
+\begin{equation}
+    I_{Position,1} = 0.000291 \pm 0.000033\, \si{\kilogram}\,\si{\meter\squared}
+\end{equation}
+\noindent
+angeben.
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c}
+\toprule
+    Messung  & $T$\,/\,$\si{\second}$ \\
+    \midrule
+
+1  &   0.73   \\
+2  &   0.86   \\
+3  &   0.87   \\
+4  &   0.87   \\
+5  &   0.78   \\
+
+    \bottomrule
+\end{tabular}
+\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments}
+\label{tab:euler}
+\end{table}
+
+
+
+\subsection{Theoriewerte zu zweiter Haltung}
+
+Über den Satz von Steiner und die Gleichungen \ref{eq:zyl1}, \ref{eq:zyl2} und \ref{eq:Kugel} 
+lassen sich die theoretischen Werte der Trägheitsmomente der einzelnen
+Körperteile berechnen. Die Teilergebnisse lauten:
+\begin{align}
+    I_{Arm} = I_{Arm,0} + (r_{Oberkoerper})^2 m_{Arm} \nonumber \\
+    I_{Arm} = 1.926 \cdot 10^{-6}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}\nonumber \\
+    I_{Bein} = I_{Bein,0} + (r_{Bein})^2 m_{Bein} \nonumber \\
+    I_{Bein} = 4.583 \cdot 10^{-7}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}\nonumber \\
+    I_{Oberkoerper} = I_{Oberkoerper,0}\nonumber \\
+    I_{Oberkoerper} = 1.228 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}\nonumber \\
+    I_{Kopf} = I_{Kopf,0}\nonumber \\
+    I_{Kopf} = 1.253 \cdot 10^{-6}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}\nonumber \\
+\end{align}
+
+\noindent
+werden all diese Teilergebnisse aufsummiert, ergibt sich das insgesamte Trägheitsmoment 
+\begin{equation}
+    I_{Position,2} = 1.591 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared} 
+\end{equation}
+der Holzpuppe in der zweiten
+Haltung.
+
+
+
+\subsection{Experimentell bestimmter Wert des Trägheitsmoments}
+ 
+Die in Tabelle \ref{tab:furlan} aufgeführten Werte wurden bei einer 
+Auslenkung von $\phi = 20\,°$ aufgenommen. Mit dem, über die Gleichungen \ref{eq:fa2}, \ref{eq:ae3} und \ref{eq:std} errechneten, 
+Wert $T_{P,2} = 0.382 \pm 0.0242\, \si{\second}$
+für die Periodendauer lässt sich über die nach $I$ umgestellte Gleichung \ref{eq:fa2}
+\begin{equation}
+    I = \frac{T^2 D}{4 \pi^2}
+\end{equation}
+und der Gaußsche Fehlerfortpflanzungformel \ref{eq:gauss}
+\begin{equation} 
+    \Delta I_{P,2} = \sqrt{\frac{T_{P,2}^2 D^2}{4 \pi^4}\Delta T_{P,2}^2 + \frac{T_{P,2}^4}{16 \pi^4}\Delta D^2} 
+\end{equation}
+\noindent
+der experimentelle Wert für das Trägheitsmoment $I_{K2}$ mit
+\begin{equation}
+    I_{Position,2} = (6.3 \pm 1.0)10^{-5}\, \si{\kilogram}\,\si{\meter\squared}
+\end{equation}
+\noindent
+angeben.
+
+\begin{table}[H]
+\normalsize
+
+\centering
+\sisetup{table-format=4.0}
+\begin{tabular}{c c}
+\toprule
+    Messung  & $T$\,/\,$\si{\second}$ \\
+    \midrule
+
+1  &   0.46   \\
+2  &   0.36   \\
+3  &   0.32   \\
+4  &   0.41   \\
+5  &   0.36   \\
+
+    \bottomrule
+\end{tabular}
+\caption{Aufgenommene Werte zur Bestimmung des Trägheitsmoments}
+\label{tab:furlan}
+\end{table}
+
+
+
+
+
+\begin{equation*}
+  I=0,787 \cdot 10^{-3}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
+\end{equation*}
+\begin{equation*}
+  I=15,432 \cdot 10^{-3}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
+\end{equation*}
+\begin{equation*}
+  I=7,916 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
+\end{equation*}
+\begin{equation*}
+  I=1,591 \cdot 10^{-5}\,\si[inter-unit-product=\cdot]{\kilo\gram\meter\squared}
+\end{equation*}

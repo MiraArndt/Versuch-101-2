@@ -11,6 +11,8 @@ err        = np.array([0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0])
 for i in range(10):
     werte[i] =  kraft[i]  * 0.12 * 1/(auslenkung[i]/360*(2*np.pi)) 
 
+
+
 y = unp.uarray(werte,err)
 x = ufloat(0.0,0.0)
 
@@ -18,22 +20,34 @@ x = ufloat(0.0,0.0)
 #    x = x + y[i]
 
 b = ufloat(8.064,1.870)
-D = ufloat(0.117027,0.001539)
+D = ufloat(0.017027,0.001539)
 m = 0.2229
 R = 0.01995
 h = 0.03
 I = ufloat(0.0,0.0)
 
 
-print(b*D)
-print( (b*D)/(4*np.pi**2) - (m*R**2)/(2) -(m*h**2)/(6) )
+#werte      = np.array([2.23,1.95,2.01,2.02,1.95])
 
-print(np.mean(werte))
-print(np.std(werte))
+werte = np.array([0.46,0.36,0.32,0.41,0.36]) #P2
+#werte = np.array([0.73,0.86,0.87,0.87,0.78]) #P1
 
-T =  ufloat(1.032,0.0463)
-print((D*T**2)/(4*np.pi**2))
+#print(b*D)
+#print( (b*D)/(4*np.pi**2) - (m*R**2)/(2) -(m*h**2)/(6) )
+
+#print(np.mean(werte))
+#print(np.std(werte))
+
+#T =  ufloat(1.032,0.0463)
+p1 = ufloat(0.8220,0.0285)
+p2 = ufloat(0.382,0.0242)
 
 
-t = ufloat(2.032 , 0.0515)
-print((D*t**2)/(4*np.pi**2))
+print((D*p1**2)/(4*np.pi**2))
+print((D*p2**2)/(4*np.pi**2))
+
+
+
+
+#t = ufloat(2.032 , 0.0515)
+#print((D*t**2)/(4*np.pi**2))

@@ -7,10 +7,20 @@
 \contentsline {subsection}{\numberline {3.2}Bestimmung des Trägheitsmoments zweier Körper}{6}{subsection.3.2}% 
 \contentsline {subsection}{\numberline {3.3}Bestimmung des Trägheitsmoments einer Holzpuppe in verschiedenen Positionen}{7}{subsection.3.3}% 
 \contentsline {section}{\numberline {4}Auswertung}{8}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Errechnete Theoriewerte}{8}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Bestimmung der Winkelrichtgröße und des Eigenträgheitsmoments der Drillachse}{9}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Berechnung der Trägheitsmomente von zwei Körpern}{11}{subsection.4.3}% 
-\contentsline {subsubsection}{\numberline {4.3.1}Trägheitsmoment eines kurzen Zylinders}{11}{subsubsection.4.3.1}% 
-\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{12}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{12}{section*.12}% 
+\contentsline {subsection}{\numberline {4.1}Bestimmung der Winkelrichtgröße und des Eigenträgheitsmoments der Drillachse}{8}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Winkelrichtgröße}{8}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Eigenträgheitsmoment}{9}{subsubsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.2}Trägheitsmoment eines kurzen Zylinders}{11}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Berechung von dem Theoriewert}{11}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Experimenteller Wert}{11}{subsubsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.3}Trägheitsmoment eines langen Zylinders}{12}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Theoriewert}{12}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Experimenteller Wert}{12}{subsubsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.4}Vermessung der Holzpuppe}{13}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Theoriewerte zu erster Haltung}{13}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Experimentell bestimmter Wert des Trägheitsmoments}{14}{subsection.4.6}% 
+\contentsline {subsection}{\numberline {4.7}Theoriewerte zu zweiter Haltung}{15}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {4.8}Experimentell bestimmter Wert des Trägheitsmoments}{15}{subsection.4.8}% 
+\contentsline {section}{\numberline {5}Diskussion}{16}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{16}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{16}{section*.17}% 
